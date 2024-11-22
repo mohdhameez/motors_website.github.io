@@ -1,0 +1,1478 @@
+.body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+
+
+/* Header top */  
+
+/* General Layout */
+
+@media (max-width: 480px) 
+{}
+    #header {
+        padding: 15px;
+    background-color: #232628;
+    
+    font-family: 'Montserrat', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.header-logo {
+    width: 200px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 0.5%;
+}
+
+/* Icon Circle */
+.icon-circle {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 3px solid #cc6119;
+    background-color: #2f3234;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+}
+
+.my-icon {
+    font-size: 18px;
+    color: #cc6119;
+    vertical-align: middle;
+}
+
+/* Text Styling */
+.location-text, .phone-text, .service-section {
+    color: #ffffff;
+   
+    line-height: 1.4;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+
+.address-line {
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.map {
+    color: #cc6119;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline dotted;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-top: 2px;
+}
+
+.phone-label, .service-label {
+    font-weight: bold;
+    color: #cc6119;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.phone-number {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.service-number {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.service-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+/* Spacing and Alignment */
+.location-section, .phone-section, .service-section {
+    display: flex;
+    align-items: center;
+    
+}
+
+.phone-section .phone-label, .phone-section .phone-number {
+    margin-left: 5px;
+}
+
+/* Social Media Section */
+.social-section .icon-circle {
+    background-color: #2f3234;
+    border: none;
+}
+
+.social-section .my-icon {
+    color: #ffffff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+}
+
+/* Header bottom */  
+
+#header-bottom {
+    background: rgba(234, 237, 240, 0.8);
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+
+/* General Nav Item Styling */
+.navbar-nav .nav-item {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+    text-transform: none; /* 'none' keeps the text in its original form */
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    line-height: 42px;
+}
+
+.navbar-nav .nav-link {
+    color: rgba(11, 11, 11, 1) !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    white-space: nowrap; /* Prevents text wrapping */
+}
+
+
+/* Display dropdown on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Hover background color */
+.nav-item:hover {
+    background-color: #cc6119;
+}
+.dropdown-item:hover{
+    background-color: #cc6119;
+}
+
+/* Navbar Container */
+.custom-header-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Left-aligned menu items */
+.navbar-nav.mr-auto {
+    display: flex;
+    flex-grow: 1; /* Occupies the remaining space */
+}
+
+/* Right-aligned Compare and Cart */
+.navbar-nav.ml-auto {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjusts space between Compare and Cart items */
+    margin-left: auto; /* Pushes the right section to the far right */
+}
+
+/* Icon and text styling */
+.nav-item .nav-link {
+    display: flex;
+    align-items: center;
+    font-weight: 510; /* Font weight for text */
+    color: rgb(61, 60, 60); /* Text color */
+}
+
+/* Icon styling: size and color */
+.nav-item .nav-link i {
+    margin-left: 4px; /* Small space between the text and icon */
+    font-size: 0.9em; /* Smaller icon size */
+    color: #1f1f1f; /* Light black color for the icon */
+}
+
+
+
+.p
+{
+    font-size: 12px;
+}
+
+.num
+{
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.ph
+{
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+
+
+.num
+{
+    font-size: 18px;
+}
+
+.custom
+{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.top
+{   
+    display: flex;
+}
+
+.content
+{
+    justify-content: space-between;
+    display: flex;
+}
+
+.compare
+{
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: bold;
+    margin-top:1%;
+    margin-left: 4%;
+    font-size: 16px;
+}
+
+/* Homepage */
+#home-page {
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+/* Carousel item */
+.carousel-item {
+    height: 650px;
+    position: relative;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: transform 10s ease;
+    transform: scale(1);
+}
+
+.carousel-item.active img {
+    transform: scale(1.1);
+}
+.carousel-caption
+{
+    position: absolute;
+    top: 50%;
+    
+    right: -47%; /* Move the circle to the right side */
+    transform: translateY(-50%); /* Center it vertically */
+    align-items: center;
+    justify-content: flex-end; 
+}
+/* Carousel Caption */
+.carousel-caption-1 {
+    position: absolute;
+    top: 50%;
+    right: 5%; /* Move the circle to the right side */
+    transform: translateY(-50%); /* Center it vertically */
+    align-items: center;
+    justify-content: flex-end; /* Align items to the right */
+}
+
+/* Orange Circle Container */
+.circle-overlay {
+    background-color: rgba(204, 97, 25, 0.85); /* Orange with slight transparency */
+    border-radius: 50%; /* Circular shape */
+    width: 450px;
+    height: 450px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Shadow around the circle */
+}
+
+/* Adjusted transparent border effect */
+.circle-overlay::before {
+    content: "";
+    position: absolute;
+    top: -5px; /* Adjust closer to match circle */
+    left: -5px; /* Adjust closer to match circle */
+    width: 460px; /* Slightly larger than the orange circle */
+    height: 460px; /* Slightly larger than the orange circle */
+    border-radius: 50%;
+    border: 3px solid rgba(128, 128, 128, 0.3); /* Light grayish transparent border */
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2); /* Extra shadow for depth */
+    z-index: -1; /* Places the border behind the circle */
+}
+
+
+/* Styling for each text element */
+.year {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    color: #ffffff;
+}
+
+.model {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 10px 0;
+    color: #000000;
+}
+
+/* Price section */
+.price {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Space between elements */
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.price .currency {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-right: 5px;
+}
+
+.price .amount {
+    font-size: 80px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.price .amount-1 {
+    font-size: 90px;
+    font-weight: 700;
+   color: rgba(204, 97, 25, 0.85)
+}
+
+.price .month {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
+    margin-left: 5px;
+}
+
+.term {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.info {
+    font-size: 12px;
+    font-weight: 400;
+    color: #383838;
+    line-height: 1.4;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Small Text Section */
+.small-text {
+    margin: 0 auto;
+    width: 80%; /* Adjust width if needed */
+    text-align: center; /* Center-align text */
+    margin-top: 20px; /* Add spacing from the price section */
+}
+
+.small {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 14px; /* Slightly smaller for better fit */
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.two {
+    margin-top: 7%;
+}
+
+/* Button Section */
+.btn-learn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.learn-more-btn {
+    background-color: #6c98e1;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    font-family: 'Montserrat', Arial, sans-serif;
+    width: 180px;
+    height: 45px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.learn-more-btn i {
+    margin-right: 8px;
+}
+
+/* Optional Adjustments for the first, second, third, and fourth sections */
+.first {
+    text-align: center;
+    margin-right: 5px;
+}
+
+.second {
+    text-align: center;
+}
+
+.third {
+    text-align: center;
+    color: #ffffff;
+}
+
+.fourth {
+    text-align: center;
+}
+
+.another {
+    font-weight: 600;
+    font-family: 'Montserrat', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+.model-heading {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+
+  .series {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 55px;
+    font-weight: bolder;
+    color: #ffffff;
+    line-height: 1.2; 
+    overflow: visible; 
+}
+
+  .series p {
+    margin: 0;
+  }
+
+
+
+
+
+
+  #homepage-end {
+    background-color: #232628;
+    padding-top: 2%;
+}
+
+.content {
+    text-align: right;
+    color: #fff;
+    font-size: 10px;
+}
+
+.new-one {
+    color: #6c98e0;
+    font-weight: 700;
+}
+
+.available-cars {
+    margin-top: 2%;
+    color: #AAA;
+    font-size: 16px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.car-icon {
+    font-size: 21px;
+    word-spacing: 50%;
+}
+
+.new-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dealer {
+    display: flex;
+    color: #fff;
+    font-family: 'Montserrat', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.seprate {
+    margin-left: 10px;
+    color: #cc6119;
+}
+
+.texts {
+    margin-top: 20px;
+}
+
+.all-btn {
+    margin-top: 2%;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start; /* Align buttons to the start without space between them */
+    gap: 0; /* Remove any gaps between buttons */
+}
+
+.newcar {
+    margin-right: 0.3%;
+    width: 18%;
+    height: 30%;
+}
+
+.new-car {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #cc6119;
+    background-color: #fff;
+    margin: 0 auto;
+    width: 100%;
+    line-height: 44px;
+    text-transform: uppercase;
+    border: none;
+}
+
+.usedcar {
+    width: 18%;
+    height: 30%;
+}
+
+.used-cars {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #AAAA;
+    background-color: rgb(255, 255, 255, 0.1);
+    margin: 0 auto;
+    width: 100%;
+    line-height: 44px;
+    text-transform: uppercase;
+    border: none;
+}
+
+.searchinventory {
+    margin-left: 0.3%;
+    width: 25%;
+    height: 30%;
+}
+
+.search-inventory {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #AAAA;
+    background-color: rgb(255, 255, 255, 0.1);
+    margin: 0 auto;
+    width: 100%;
+    line-height: 44px;
+    text-transform: uppercase;
+    border: none;
+}
+
+/* Mobile and Tablet Responsiveness */
+@media screen and (max-width: 768px) {
+    .content {
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .new-div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dealer {
+        font-size: 14px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .seprate {
+        margin-left: 0;
+        margin-top: 5px;
+    }
+
+    .available-cars {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    /* Ensure no space between buttons */
+    .newcar, .usedcar, .searchinventory {
+        width: 100%; /* Full width */
+        margin-bottom: 0; /* No bottom margin */
+    }
+
+    .all-btn {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 0; /* Remove space between buttons */
+    }
+
+    .new-car, .used-cars, .search-inventory {
+        font-size: 14px;
+        line-height: 36px;
+        margin-bottom: 0; /* Ensure no margin between buttons */
+    }
+}
+
+/* For smaller mobile devices (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    .content {
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .new-div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dealer {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .available-cars {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .newcar, .usedcar, .searchinventory {
+        width: 100%; /* Full width on small screens */
+        margin-bottom: 0; /* No bottom margin */
+    }
+
+    .new-car, .used-cars, .search-inventory {
+        font-size: 14px;
+        line-height: 36px;
+    }
+}
+
+/* Cars */
+#car-slideshow 
+{
+    margin-top: 3%;
+}
+
+.car-1 img,
+.car-2 img,
+.car-3 img,
+.car-4 img,
+.car-5 img,
+.car-6 img,
+.car-7 img,
+.car-8 img 
+{
+    width: 100%;
+    height: 200px; 
+    object-fit: contain;
+}
+
+.car-subtitle 
+{
+    position: relative;
+    text-transform: uppercase;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+
+.subtitle-price
+{
+    cursor: pointer;
+    background-color: #6c98e0;
+    margin-bottom: 15px;
+    padding: 5px;
+    height: 38.33px;
+    margin-left: 15px;
+}
+
+.first-price,
+.second-price,
+.third-price 
+{
+    margin: 0;
+    white-space: nowrap; 
+    line-height: 1; 
+}
+
+
+.first-price 
+{
+    text-decoration: line-through;
+    color: black;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.second-price 
+{
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.third-price 
+{
+    color: #fff;
+    margin: 0;
+    white-space: nowrap; 
+    font-size: 15px; 
+    line-height: 1; 
+    font-size: 14px;
+    padding: 7px 0;  
+}
+
+.col-lg-3, .col-md-6, .col-sm-12 
+{
+    margin-bottom: 5%;
+}
+
+.car-meta-bottom
+{
+    margin-top: 10px; 
+}
+
+.car-meta-bottom ul 
+{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    color: #888888;
+    padding: 0;
+}
+
+.car-meta-bottom li 
+{
+    display: flex; 
+    align-items: center; 
+    margin-right: 20px; 
+}
+
+.car-meta-bottom i 
+{
+    margin-right: 10px; 
+}
+
+.show-all-btn 
+{
+    display: block;
+    margin: 0 auto;
+    height: 46px; 
+    width: 138.02px; 
+    color: #6c98e0;
+    text-align: center;
+}
+
+.show 
+{
+    border: none;
+    font-family: 'Montserrat', Arial, sans-serif;
+    background-color: #6c98e0;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center; 
+    height: 46px;
+    width: 138.02px; 
+    text-transform: uppercase;
+}
+
+/*  New Car Page    */
+#new-car-page 
+{
+    margin-top: 3%;
+    background-image: url(img/carforcar.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0; 
+}
+
+.looking, .looking-1 
+{
+    display: flex; 
+    padding: 60px 50px 50px 20px;
+    box-sizing: border-box;
+}
+.looking 
+{
+    background-color: #fab637;
+}
+
+.looking-1 
+{
+    background-color: #ff4848;
+}
+
+.are 
+{
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    white-space: nowrap;
+    padding: 0 20px;
+}
+
+.requirements 
+{
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 13px;
+    display: block;
+    text-align: left;
+    padding: 0px 20px;
+}
+
+.completed 
+{
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.car-text
+{
+    text-align: center;
+}
+
+.car-icon-search 
+{
+    padding-top: 2px;
+    padding-right: 25px;
+    font-size: 65px;
+    color: black;
+}
+
+
+/* Special Page */
+
+
+#specials {
+    padding: 36px 0 50px 0;
+    background-color: #232628; 
+}
+
+.d-flex {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    position: relative; 
+}
+
+.special {
+    font-family: 'Montserrat', Arial, sans-serif; /* Font style for Specials */
+    font-size: 34px; /* font size */
+    color: #ffffff; /* Text color */
+    margin: 0; /* Removes default margins */
+    text-align: center; /* Center align the text */
+}
+
+.specials-icon {
+    position: absolute; /* Position to the right of Specials */
+    top: 0; /* Align with the heading */
+    right: -120px; /* Adjust distance from the heading */
+    display: flex; /*  flexbox to align icon and text */
+    align-items: center; /* Center items vertically */
+    color: #9f9e9e;
+}
+
+.special-text {
+    font-family: 'Montserrat', Arial, sans-serif; /* Font style */
+    font-size: 16px; /* Font size */
+    color: #fbfdff; /* Text color */
+    margin-left: 5px; /* Space between icon and text */
+}
+
+.special-icon {
+    font-size: 16px; 
+    color: #9f9e9e; 
+}
+
+
+/* Flex container for lines */
+.line-container {
+    display: flex; 
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-top: 20px;
+    padding-bottom: 20px; 
+}
+
+/* Original long line */
+.first-longs {
+    width: 40px; /* Original width */
+    height: 5px; /* Original height */
+    border-radius: 2px;
+    background-color: #cc6119; /* Color */
+    margin-right: 5px; /* Slight space between long line and short line */
+}
+
+/* Short line style */
+.short-line {
+    width: 20px; /* Smaller width for the short line */
+    height: 5px; /* Height of the short line */
+    border-radius: 2px; /* Rounded corners */
+    background-color: #cc6119;
+}
+
+
+
+
+.image-length
+{
+    width: 350px;
+    height: 205px;
+}
+
+.vehicle-content
+{
+    margin-top:5%;
+    padding: 18PX 20PX 20PX 23PX;
+    width:350px;
+    height: 140px;
+    background-color: #373c3f;
+    display: flex;
+}
+
+.all-content
+{
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Montserrat', Arial, sans-serif; 
+    color: #c9c9c9;
+    text-transform: uppercase;
+}
+
+.special-case
+{
+    text-transform: uppercase;
+    margin-left: 35px;
+}
+
+.dotted-content
+{
+    margin-top: 45%;
+    padding: 50px 0px 0px 0px;
+    color: #6c98e0;
+}
+
+.dooted
+{
+    margin-top: 45%;
+    height: 6px;
+    width: 6px;
+    background-color: #9d9d9d;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+/* Why Section Background and Padding */
+
+
+.why {
+    padding: 56px 0px 50px 0px;
+    background-color: #f0f2f5; 
+}
+
+/* Heading: Why Choose Us */
+.Why-us {
+    margin-top: 60px; /* Space above the heading */
+    font-family: 'Montserrat', Arial, sans-serif; /* Font styling */
+    font-size: 36px; /* Font size for heading */
+    color: #373c3f; /* Text color */
+    font-weight: 700; /* Bold weight */
+    text-transform: uppercase; /* Uppercase text */
+    text-align: center; /* Center align text */
+}
+
+/* Flex container for lines */
+.line-container {
+    display: flex; 
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-top: 10px;
+    padding-bottom: 40px;
+}
+
+/* Original long line */
+.first-longs {
+    width: 40px; /* Original width */
+    height: 5px; /* Original height */
+    border-radius: 2px;
+    background-color: #cc6119; /* Color */
+    margin-right: 5px; 
+}
+
+/* Short line style */
+.short-line {
+    width: 20px; /* Smaller width for the short line */
+    height: 5px; /* Height of the short line */
+    border-radius: 2px; /* Rounded corners */
+    background-color: #cc6119; /* Same color as the original line */
+}
+
+
+/* Icon Style */
+.icon-style {
+    font-size: 50px; /* Size of the icons */
+    color: #cc6119; /* Color of the icons */
+    margin-right: 15px; /* Space between icon and text */
+    flex-shrink: 0; 
+}
+
+/* Why Item Container: Flexbox Alignment */
+.why-item {
+    display: flex; /* Flexbox for alignment */
+    align-items: flex-start; /* Align icon and text to the start */
+    margin-bottom: 30px; /* Spacing between items */
+}
+
+/* Text Content Alignment */
+.text-content {
+    text-align: left; /* Left align text */
+}
+
+/* Title within each why item */
+.finance {
+    color: #2f3234; /* Title text color */
+    font-weight: bold; /* Bold weight */
+    font-size: 16px; /* Font size for title */
+    text-transform: uppercase; /* Uppercase text */
+    margin-top: 10px; /* Space above title */
+}
+
+/* Description Text within each why item */
+.finance-content {
+    font-family: 'Montserrat', Arial, sans-serif; /* Font styling for description */
+    font-size: 15px; /* Font size for description */
+    line-height: 1.6; /* Line height for readability */
+    color: #555; /* Text color for description */
+}
+
+/* Learn More Button Container */
+.learn-more {
+    text-align: center; /* Center align the button */
+    margin-top: 20px; /* Space above the button */
+}
+
+/* Button Styles */
+.show {
+    background-color: #6c98e0; /* Button background color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    padding: 15px 50px; /* Increased padding for a larger button */
+    font-size: 15px; /* Increased font size for better visibility */
+    font-family: 'Montserrat', Arial, sans-serif; /* Font family */
+    cursor: pointer; /* Pointer cursor */
+    font-weight: bold; /* Bold text */
+    text-transform: uppercase; /* Uppercase text */
+    border-radius: 3px; /* Rounded corners */
+    display: inline-flex; /* Use flex to align icon and text */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center text and icon horizontally */
+    transition: background-color 0.3s; /* Smooth background transition */
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+/* Icon style within the Learn More button */
+.icon-in-button {
+    margin-right: 10px; /* Space between the icon and text */
+    font-size: 15px; /* Slightly larger icon size */
+    vertical-align: middle; /* Center icon vertically with text */
+}
+
+/* Button hover effect */
+.show:hover {
+    background-color: #5b84c6; /* Darker shade on hover */
+}
+
+
+/* Additional padding for the content area */
+.why-content {
+    padding: 20px; /* Add padding around the content */
+}
+
+/* Adjusting row margins */
+.why-content .row {
+    margin: 0; /* Remove default row margin */
+}
+
+
+
+
+
+/* Last Page */
+
+#last-page 
+{
+    margin-top: 2%;
+    background-image: url(img/lastimg.jpg);
+    padding-top: 30px;
+    padding-bottom: 60px;
+    width: 100%;
+    display: flex;                  
+    justify-content: center;        
+    align-items: center;            
+}
+
+.dealership 
+{
+    position: relative;
+    padding: 20px 40px;            
+    box-sizing: border-box;
+    background-color: #fab637;
+    text-align: left;             
+    display: inline-block;           
+}
+
+.car-dealership 
+{
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: #232628;                         
+}
+
+.automotive 
+{
+    font-family: 'Montserrat', Arial, sans-serif;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;                    
+}
+
+.automotive-text 
+{
+    color: #232628;
+    font-size: 14px;
+    margin: 10px 0 0;   
+    font-family: 'Montserrat', Arial, sans-serif;         
+}
+
+
+
+
+
+
+/* Footer */
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow columns to stack on smaller screens */
+}
+
+.col-3 {
+    flex: 1;
+    padding: 0 10px;
+    position: relative;
+}
+
+.footer-line {
+    border-top: 1px solid #AAAAAA;
+    width: 90%;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 10px;
+}
+
+/* Make sure triangle aligns correctly */
+.icon-box-bottom-triangle {
+    margin-top: 0;
+    position: absolute;
+    top: 100%;
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-right: 55px solid #fab637;
+    transform: skew(0deg, 23deg);
+}
+
+/* Main footer styles */
+#footer {
+    padding: 60px 0px 60px 0px;
+    background-color: #232628;
+}
+
+/* Footer text */
+.footer-dealership {
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin-top: 14%;
+    padding: 55px 10px 0px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.footer-dealership-text {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 13px;
+    color: #AAAAAA;
+    text-align: justify;
+    margin: 0;
+    padding-top: 3%;
+}
+
+/* Image Gallery */
+.footer-images {
+    display: flex;
+    width: 285px;
+    height: 126px;
+}
+
+.footer-images img {
+    width: 65px;
+    height: 65px;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #444;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.icon:hover {
+    opacity: 0.7;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+    /* Stack the footer columns on small screens */
+    .footer-columns {
+        flex-direction: column;
+        align-items: center; /* Center the columns */
+    }
+
+    /* Make footer images stack vertically */
+    .footer-images {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .footer-images img {
+        width: 50px; /* Smaller images for mobile */
+        height: 50px;
+    }
+
+    /* Adjust footer text padding and alignment */
+    .footer-dealership {
+        margin-top: 10%;
+        padding: 40px 10px;
+        text-align: center;
+    }
+
+    /* Adjust font sizes for mobile */
+    .footer-dealership-text {
+        font-size: 12px;
+    }
+
+    .social-icons {
+        justify-content: center; /* Center the social icons */
+    }
+
+    .icon {
+        width: 35px; /* Smaller icon size */
+        height: 35px;
+        font-size: 18px; /* Adjust icon size */
+    }
+
+    /* Adjust footer line width */
+    .footer-line-1 {
+        width: 100%;
+    }
+
+    /* Adjust other elements if necessary */
+    .weekdays, .monday {
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Even smaller adjustments for very small screens */
+    .footer-dealership {
+        font-size: 12px;
+        padding: 30px 10px;
+    }
+
+    .footer-dealership-text {
+        font-size: 11px;
+    }
+
+    .icon {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+    }
+
+    .footer-images img {
+        width: 45px;
+        height: 45px;
+    }
+
+    /* Adjust social icons for small screens */
+    .social-icons {
+        gap: 5px;
+    }
+}
+
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px; /* Width of the square background */
+    height: 40px; /* Height of the square background */
+    background-color: #444; /* Background color for each icon box */
+    color: #fff; /* Icon color */
+    border-radius: 4px; 
+    text-decoration: none;
+    font-size: 20px; /* Icon size */
+}
+
+
+.icon:hover 
+{
+    opacity: 0.7; 
+}
+
+.weekdays
+{
+    font-family: 'Montserrat', Arial, sans-serif; 
+    font-size: 13px;
+    color:#fff;
+    text-align: justify;
+    margin: 0;
+}
+
+.monday
+{
+    font-size: 13px;
+    color:#AAAAAA;
+}
+
+.input-group
+{
+    font-family: 'Montserrat', Arial, sans-serif;
+    color: #fff; 
+}
+
+.input-group .input-group-append .icon 
+{
+    background-color: #cc6119; 
+    font-size: 20px; 
+    color: #fff;
+    border: none;
+}
+
+.foot-line 
+{
+    border-top: 1px solid #AAAA; 
+    width: 100%; 
+    margin-top: 5%;
+}
+
+.comments
+{
+    font-size: 12px;
+    color: #6c98e1; 
+}
+
+.comments i
+{
+    margin-right: 7px;
+}
+#footer-social-icons .icon {
+    display: inline-block;
+    color: #5db8f1; 
+    margin-right: 10px; 
+    font-size: 20px; 
+    background-color: transparent; 
+    border: none; 
+}

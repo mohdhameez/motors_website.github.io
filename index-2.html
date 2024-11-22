@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Motors - Car Dealer Wordpress</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Font Montserrat -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link href="style2.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!-- Bootstrap 4 JS Bundle (includes Popper) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  </head>
+  <body>
+    <section id="header">
+      <!-- Logo Section -->
+      <div class="header-logo">
+        <img src="img/logo.svg" alt="motors logo" />
+      </div>
+
+      <!-- Address Section -->
+      <div class="location-section">
+        <div class="icon-circle">
+          <i class="fas fa-map-marker-alt my-icon"></i>
+        </div>
+        <div class="location-text">
+          <span class="address-line">1840 E Garvey Ave South</span>
+          <span> West Covina, CA 91791</span><br />
+          <span class="map">VIEW ON MAP</span>
+        </div>
+      </div>
+
+      <!-- Phone Section -->
+      <div class="phone-section">
+        <div class="icon-circle">
+          <i class="fas fa-phone-alt my-icon"></i>
+        </div>
+        <div class="phone-text">
+          <span class="phone-label">PHONE</span><br />
+          <span class="phone-number">878-9674-4455</span>
+        </div>
+      </div>
+
+      <!-- Service and Parts Section -->
+      <div class="service-section">
+        <div class="service-item">
+          <span class="service-label">SERVICE</span>
+          <span class="service-number">878-3853-9576</span>
+        </div>
+        <div class="service-item">
+          <span class="service-label">PARTS</span>
+          <span class="service-number">878-0505-044</span>
+        </div>
+      </div>
+
+      <!-- Social Media Section -->
+      <div class="social-section">
+        <a href="#">
+          <div class="icon-circle">
+            <i class="fab fa-facebook my-icon"></i>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section id="header-bottom">
+      <div class="container bottom">
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <nav
+              class="navbar navbar-expand-lg navbar-light custom-header-bottom"
+            >
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Left Aligned Navbar Items -->
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link text-black mx-3" href="#">Home</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#"
+                        >with Revolution Slider
+                      </a>
+                      <a class="dropdown-item" href="#">with Hero Slider </a>
+                      <a class="dropdown-item" href="#">with Hero Banner</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link text-black mx-3" href="#">Inventory</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Standard Inventory </a>
+                      <a class="dropdown-item" href="#">Inventory Grid View</a>
+                      <a class="dropdown-item" href="#">Sold Inventory</a>
+                      <a class="dropdown-item" href="#">Single Listing</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link text-black mx-3" href="#">Pages</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Classic</a>
+                      <a class="dropdown-item" href="#">Modern</a>
+                      <a class="dropdown-item" href="#">Carousel</a>
+                      <a class="dropdown-item" href="#">Mosaic</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link text-black mx-3" href="#">Mega Menu</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#"
+                        >Blog - Grid Full Width</a
+                      >
+                      <a class="dropdown-item" href="#"
+                        >List with Right Sidebar</a
+                      >
+                      <a class="dropdown-item" href="#"
+                        >Single Post Templates</a
+                      >
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link text-black mx-3" href="#">Blog</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">About Us</a>
+                      <a class="dropdown-item" href="#">Contact Us</a>
+                      <a class="dropdown-item" href="#">Auto Loan Calculator</a>
+                      <a class="dropdown-item" href="#">Vehicle Comparison</a>
+                      <a class="dropdown-item" href="#">FAQ</a>
+                      <a class="dropdown-item" href="#">Coming Soon</a>
+                      <a class="dropdown-item" href="#">Widgets</a>
+                      <a class="dropdown-item" href="#">Sell a car</a>
+                      <a class="dropdown-item" href="#">404 page</a>
+                      <a class="dropdown-item" href="#">Shop</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black mx-3" href="#">Shop</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black mx-3" href="#">Contact</a>
+                  </li>
+                </ul>
+                <!-- Right Aligned Icons for Compare and Add to Cart -->
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link text-black mx-3" href="#">
+                      Compare <i class="fas fa-tachometer-alt"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black mx-3" href="#">
+                      Cart <i class="fas fa-car"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--------------------- Cars Page ---------------------------------->
+<section id="book-car-page">
+    <div class="container">
+      <div class="row">
+        <!-- Car Details Section -->
+        <div class="col-lg-8">
+          <h1 class="mercedes">Mercedes-Benz C-Class 2015</h1>
+          <div class="car-update">
+            <p class="stock"><span class="stock-update">STOCK #</span> 153092</p>
+            <p class="schedule">Schedule Test Drive</p>
+            <p class="compares">Add To Compare</p>
+            <p class="share">Share This</p>
+            <p class="prints">Print Page</p>
+          </div>
+          
+     <!-- Main Image Section -->
+<div class="main-image-container">
+    <div class="image-wrapper">
+      <img src="img/car-1.jpg" alt="Main Car Image" id="mainImage">
+      <span class="special-label">SPECIAL</span>
+    </div>
+  </div>
+  
+
+          <!--  Carousel Section -->
+          <div class="thumbnail-carousel-container">
+            <button class="carousel-button prev" onclick="scrollCarousel('left')">&#10094;</button>
+            <div class="thumbnail-carousel">
+              <div class="carousel-slide" onclick="changeMainImage('img/car1.jpg')">
+                <img src="img/car-1.jpg" alt="Car Image 1">
+              </div>
+              <div class="carousel-slide" onclick="changeMainImage('img/car2.jpg')">
+                <img src="img/car-2.jpg" alt="Car Image 2">
+              </div>
+              <div class="carousel-slide" onclick="changeMainImage('img/car3.jpg')">
+                <img src="img/car-3.jpg" alt="Car Image 3">
+              </div>
+              <div class="carousel-slide" onclick="changeMainImage('img/car4.jpg')">
+                <img src="img/car-4.jpg" alt="Car Image 4">
+              </div>
+            </div>
+            <button class="carousel-button next" onclick="scrollCarousel('right')">&#10095;</button>
+          </div>
+<!-- Tabs Section -->
+<div class="content-section">
+    <!-- Tabs -->
+    <div class="tabs">
+      <button class="tab active">Vehicle Overview</button>
+      <button class="tab">Technical</button>
+      <button class="tab">Features & Options</button>
+      <button class="tab">Location</button>
+      <button class="tab">Contact</button>
+    </div>
+  
+    <!-- Tab Content -->
+    <div class="tab-content">
+      <p>
+        Quisque imperdiet dignissim enim dictum finibus. Sed consectetur convallis enim eget laoreet. Nulla ac sem eget ipsum malesuada cursus.
+      </p>
+      <p>Etiam sit amet ex pharetra, venenatis ante vehicula, gravida sapien. Fusce eleifend vulputate nibh, non cursus augue placerat pellentesque. Sed venenatis risus nec felis mollis, in pharetra urna euismod. Morbi aliquam ut turpis sit amet ultrices. Vestibulum mattis blandit nisl, et tristique elit scelerisque nec. Fusce eleifend laoreet dui eget aliquet. Ut rutrum risus et nunc pretium scelerisque. Fusce viverra, ligula quis pellentesque interdum, leo felis congue dui, ac accumsan sem nulla id lorem. Praesent ut tristique dui, nec condimentum lacus. Maecenas lobortis ante id egestas placerat. Nullam at ultricies lacus. Nam in nulla consectetur, suscipit mauris eu, fringilla augue. Phasellus gravida, dui quis dignissim tempus, tortor orci tristique leo, ut congue diam ipsum at massa. Pellentesque ut vestibulum erat. Donec a felis eget</p>
+
+      <blockquote>
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+      </blockquote>
+      <p>
+        Maecenas lobortis ante id egestas placerat. Nullam at ultricies lacus. Nam in nulla consectetur, suscipit mauris eu, fringilla augue. Phasellus gravida, dui quis dignissim tempus, tortor orci tristique leo, ut congue diam ipsum at massa. Pellentesque ut vestibulum erat. Donec a felis eget tellus laoreet ultrices.
+        </p>
+    </div>
+  
+   <!-- Extra Features Section -->
+<div class="extra-features">
+    <h3>Extra Features</h3>
+    <ul class="feature-list">
+      <li>Auxiliary heating</li>
+      <li>Bluetooth</li>
+      <li>CD player</li>
+      <li>Central locking</li>
+  
+      <li>Head-up display</li>
+      <li>MP3 interface</li>
+      <li>Navigation system</li>
+      <li>Panoramic roof</li>
+  
+      <li>Alloy wheels</li>
+      <li>Electric side mirror</li>
+      <li>Sports package</li>
+      <li>Sports suspension</li>
+  
+      <li>MP3 interface</li>
+      <li>Navigation system</li>
+      <li>Panoramic roof</li>
+      <li>Parking sensors</li>
+    </ul>
+  </div>
+  
+<!-- Finance Calculator Section -->
+<div class="finance-calculator">
+    <div class="calculator-heading">
+        <span class="calculator-icon fa fa-calculator"></span>  
+      <h3>Finance Calculator</h3>
+    </div>
+    
+    <div class="calculator-form">
+      <!-- All input fields and calculate button-->
+      <div class="form-row">
+        <!-- Vehicle Price -->
+        <div class="form-item">
+          <label for="vehicle-price">Vehicle Price ($)</label>
+          <input type="number" id="vehicle-price" placeholder="Enter amount">
+        </div>
+        
+        <!-- Interest Rate -->
+        <div class="form-item">
+          <label for="interest-rate">Interest Rate (%)</label>
+          <input type="number" id="interest-rate" placeholder="Enter rate">
+        </div>
+        
+        <!-- Period -->
+        <div class="form-item">
+          <label for="period">Period (months)</label>
+          <input type="number" id="period" placeholder="Enter period">
+        </div>
+        
+        <!-- Down Payment -->
+        <div class="form-item">
+          <label for="down-payment">Down Payment ($)</label>
+          <input type="number" id="down-payment" placeholder="Enter down payment">
+        </div>
+      </div>
+      
+      <!-- Calculate Button and Results Section  -->
+      <div class="calculate-results-row">
+        <!-- Calculate Button -->
+        <div class="calculate-btn-container">
+          <button class="calculate-btn">CALCULATE</button>
+        </div>
+        
+        <!-- Results Section -->
+        <div class="calculator-results">
+          <div class="result-item">
+            <p><strong>Monthly Payment</strong> $1418.38</p>
+          </div>
+          <div class="result-item">
+            <p><strong>Total Interest Payment</strong> $1041.12</p>
+          </div>
+          <div class="result-item">
+            <p><strong>Total Amount to Pay</strong> $36041.12</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+    <!-- Search Results Section -->
+    <div class="search-results">
+        <h3>Search Results</h3>
+        <div class="result-card">
+          <img src="img/car-1.jpg" alt="Car Image">
+          <div class="result-info">
+            <p class="car-model">Mercedes-Benz C-Class 2015</p>
+            <p class="car-price">MSRP $35,000</p>
+          </div>
+        </div>
+        <div class="result-card">
+          <img src="img/car-2.jpg" alt="Car Image">
+          <div class="result-info">
+            <p class="car-model">BMW 3 Series 2016</p>
+            <p class="car-price">MSRP $32,000</p>
+          </div>
+        </div>
+      </div>
+    </div>
+        </div>
+
+        
+  
+        <!-- Pricing and Seller Info Section -->
+        <div class="col-lg-4">
+          <div class="single-car-price">
+            <div class="single-regular-sale-price">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>
+                      <div class="regular-price-with-sale">
+                        Buy From<br><strong>$39,600</strong>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="car-in-dollar">
+                        MSRP <br> <span class="cars-price">$35,000</span>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="sale-price-description-single">
+            Instant Savings: <span class="instant-savings">$4,600</span>
+          </div>
+          <div class="widget-container">
+            <div class="clearfix">
+              <div class="image-person">
+                <img src="img/person1.jpg" alt="Seller Image">
+              </div>
+              <div class="title">Stylemix Themes <span class="label">Private Seller</span></div>
+            </div>
+          </div>
+          <div class="whatsapp-btn"><i aria-hidden="true" class="stm-icon-whatsapp"></i> CHAT VIA WHATSAPP</div>
+          <div class="dealer-info-unit">
+            <div class="inner">
+              <span class="phone">894*******</span>
+              <span class="show-number">Show Number</span>
+            </div>
+          </div>
+          <div class="email-btn">
+            <p>Message Us</p>
+          </div>
+          <div class="make-offer" onclick="openModal()">
+            <p>Make an offer price</p>
+          </div>
+          
+          <!-- Modal Structure -->
+          <div id="offerModal" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal()">&times;</span>
+              <iframe src="index-3.html" style="width: 100%; height: 700px;" frameborder="0"></iframe>
+            </div>
+          </div>
+          <div class="trade">
+            <p>Trade in form</p>
+          </div>
+          <div class="single-listing-map">
+            <p>New York</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!----------------------End --------------------------------------->
+    <!-------------------- Wrapper ----------------------------------->
+    <section id="footer">
+      <div class="container">
+        <div class="footer-columns">
+          <div class="col-3">
+            <h6 class="footer-dealership">
+              <span class="footer-motor">Motors </span>Dealership
+            </h6>
+            <p class="footer-dealership-text">
+              As the leading dealer in Chicago, we are confident that we will
+              save you time and money. Motors is ultimate Automotive, Car Dealer
+              WordPress theme.
+            </p>
+            <div class="footer-line"></div>
+          </div>
+          <div class="col-3">
+            <h6 class="footer-dealership">Photo Gallery</h6>
+            <div class="footer-images">
+              <img src="img/footerimg.jpg" alt="Footer Image 1" />
+              <img src="img/footerimg2.jpg" alt="Footer Image 2" />
+              <img src="img/footerimg3.jpg" alt="Footer Image 3" />
+              <img src="img/footerimg4.jpg" alt="Footer Image 4" />
+            </div>
+            <div class="footer-line"></div>
+          </div>
+          <div class="col-3">
+            <h6 class="footer-dealership">Latest Blog Posts</h6>
+            <p class="footer-dealership-text">
+              The Tesla Model S isn’t the first truly autonomous car on the
+              road...
+            </p>
+            <p class="comments">
+              <i class="fa-regular fa-comment"></i>No Comments
+            </p>
+            <div class="footer-line"></div>
+          </div>
+          <div class="col-3">
+            <h6 class="footer-dealership">Social Network</h6>
+            <div class="social-icons">
+              <a href="#" class="icon facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="icon instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="icon linkedin"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" class="icon youtube"
+                ><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="footer-line"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="footer-columns">
+          <div class="col-3">
+            <h6 class="footer-dealership">Subscribe</h6>
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter your email..."
+                aria-label="User input"
+              />
+              <div class="input-group-append">
+                <span class="input-group-text icon">
+                  <i class="fa-solid fa-wifi"></i>
+                </span>
+              </div>
+            </div>
+            <p class="footer-dealership-text">Get latest updates and offers</p>
+          </div>
+          <div class="col-3">
+            <h6 class="footer-dealership">Sales Hours</h6>
+            <p class="weekdays">
+              <span class="monday">Monday-Friday:</span> 09:00AM - 09:00PM
+            </p>
+            <p class="weekdays">
+              <span class="monday">Saturday:</span> 09:00AM - 07:00PM
+            </p>
+            <p class="weekdays"><span class="monday">Sunday:</span> Closed</p>
+          </div>
+          <div class="col-3">
+            <h6 class="footer-dealership">Service Hours</h6>
+            <p class="weekdays">
+              <span class="monday">Monday-Friday:</span> 09:00AM - 09:00PM
+            </p>
+            <p class="weekdays">
+              <span class="monday">Saturday:</span> 09:00AM - 07:00PM
+            </p>
+            <p class="weekdays"><span class="monday">Sunday:</span> Closed</p>
+          </div>
+          <div class="col-3">
+            <h6 class="footer-dealership">Parts Hours</h6>
+            <p class="weekdays">
+              <span class="monday">Monday-Friday:</span> 09:00AM - 09:00PM
+            </p>
+            <p class="weekdays">
+              <span class="monday">Saturday:</span> 09:00AM - 07:00PM
+            </p>
+            <p class="weekdays"><span class="monday">Sunday:</span> Closed</p>
+          </div>
+        </div>
+        <div class="foot-line"></div>
+      </div>
+      <!-- End of second row -->
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <p class="footer-dealership-text">
+              Copyright © 2021. Motors – WordPress Theme by StylemixThemes
+            </p>
+          </div>
+          <div class="col-6 text-right">
+            <div id="footer-social-icons">
+              <a href="#" class="icon facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="icon twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" class="icon instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------------------- Required scripts--------------------------->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
